@@ -2,18 +2,19 @@
   <header class="header">
     <h1>todos</h1>
     <form id="new-form">
-      <input type="text" class="new-todo" />
+      <input type="text" class="new-todo" placeholder="What needs to be done?"/>
     </form>
   </header>
 
   <section class="main">
     <ul class="todo-list">
-      <li>
-        <div class="view">
-          <input class="toggle" type="checkbox">
-          <lable>Do Laundry</lable>
-        </div>
-      </li>
+      
     </ul>
   </section>
+</section>
+
+<section class="author">
+  A <%= link_to "todo-mvc", "http://todomvc.com" %>
+  application, built by
+  <%= link_to "Mary Smith", "https://github.com/lillycoder/todo2-spa" %>
 </section>
